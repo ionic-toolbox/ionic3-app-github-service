@@ -1,0 +1,7 @@
+echo "# ionic3-app-github-service-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ionic-toolbox/ionic3-app-github-service-.git
+git push -u origin master
+

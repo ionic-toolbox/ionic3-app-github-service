@@ -1,8 +1,8 @@
 {
   "name": "ionic3-app-github-service",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Ralph Goestenmeier",
+  "homepage": "https://ionic-toolbox.github.io/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",

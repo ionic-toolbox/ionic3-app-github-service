@@ -8,18 +8,18 @@ import { NavController, NavParams } from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-  selector: 'page-repo-details',
-  templateUrl: 'repo-details.html'
+	selector: 'page-repo-details',
+	templateUrl: 'repo-details.html'
 })
 export class RepoDetailsPage {
-  selectedRepo: any;
+	selectedRepo: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.selectedRepo = navParams.get('repo');
-  }
+	constructor(public navCtrl: NavController, public navParams: NavParams) {
+		this.selectedRepo = navParams.get('repo');
+	}
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad RepoDetailsPage');
-  }
+	ionViewDidLoad() {
+		console.log('ionViewDidLoad RepoDetailsPage');
+	}
 
 }
